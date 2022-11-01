@@ -8,24 +8,27 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Profit And Loss</h1>
-    <main>
+    <nav class="navigation">
+      <div class="nav-brand">IAmDeveloper</div>
+  </nav>
+    <h1 id="h1">Profit And Loss</h1>
+    <div class="main-content">
       <label for="initial-price">
-        Initial price
+        Initial price:
         
         <input id="initial-price"
         type="number" placeholder="Enter the inital price" />
       </label>
 
       <label for="stocks-quantity">
-        Quantity of stock
+        Quantity of stock:
         <input type="number"
         id="stocks-quantity"
          type="number" placeholder="Enter the no. of stock bought" />
       </label>
 
       <label for="current-price">
-        Current Price
+        Current Price:
         <input
         id="current-price"
           type="number"
@@ -37,7 +40,22 @@
       <div id="output-box">
 
       </div>
-    </main>
+    </div>
     <script src="./app.js"></script>
+
+    
+    <footer class="footer">
+      <div class="footer-header">
+          Connecting......
+      </div>
+      <ul class="social-links list-non-bullet">
+          <li  class="list-item-inline">
+              <a class="link" href="https://www.linkedin.com/in/anurag-29">LinkedIn</a></li>
+          <li class="list-item-inline">
+              <a class="link" href="https://www.instagram.com/anurag_chaudhary360/">Instagram</a></li>
+          <li class="list-item-inline">
+              <a class="link" href="https://github.com/AnuragM87">GitHub</a></li>
+      </ul>
+  </footer>
   </body>
 </html>
