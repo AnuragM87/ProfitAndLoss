@@ -32,7 +32,7 @@ function submitHandler(){
     var ip=initialPrice.value;
     var qty=stockQuantity.value;
     var curr=currentPrice.value;
-    if(ip.length == 0 || qty == 0 || curr == 0){
+    if(ip.length == 0 || qty.length == 0 || curr.length == 0){
         alert("Please fill the Blank");
         return;
     }
